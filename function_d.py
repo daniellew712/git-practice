@@ -1,7 +1,6 @@
 def max_value(numbers):
     """ This function returns the largest number
         in the list.
-        add new comments
     """
 
     max = numbers[0]
@@ -9,8 +8,6 @@ def max_value(numbers):
         if num > max:
             max =num
     return max
-    return max(numbers)
-
 
 if __name__ == "__main__":
     print(max_value([1, 12, 2, 42, 8, 3]))
