@@ -11,7 +11,7 @@ def max_value(numbers):
     return max
     return max(numbers)
 
-# random comment
+# random comment #2
 
 if __name__ == "__main__":
     print(max_value([1, 12, 2, 42, 8, 3]))
