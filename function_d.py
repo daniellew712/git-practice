@@ -1,14 +1,12 @@
 def max_value(numbers):
     """ This function returns the largest number
         in the list.
-        add new comments
     """
 
     max = numbers[0]
     for num in numbers:
         if num > max:
             max =num
-    return max
     return max(numbers)
 
 # random comment #2
