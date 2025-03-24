@@ -7,7 +7,7 @@ def max_value(numbers):
     for num in numbers:
         if num > max:
             max =num
-    return max(numbers)
+    return max
 
 # random comment #2
 
